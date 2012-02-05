@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8468446114D844AD004C3523 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468446014D844AD004C3523 /* UIKit.framework */; };
+		8468446314D844AD004C3523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468446214D844AD004C3523 /* Foundation.framework */; };
+		8468446514D844AD004C3523 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468446414D844AD004C3523 /* CoreGraphics.framework */; };
+		8468446B14D844AD004C3523 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8468446914D844AD004C3523 /* InfoPlist.strings */; };
+		8468446D14D844AD004C3523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468446C14D844AD004C3523 /* main.m */; };
+		8468447114D844AD004C3523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468447014D844AD004C3523 /* AppDelegate.m */; };
+		8468447414D844AD004C3523 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468447314D844AD004C3523 /* MasterViewController.m */; };
+		8468447714D844AD004C3523 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468447614D844AD004C3523 /* DetailViewController.m */; };
+		8468447A14D844AD004C3523 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8468447814D844AD004C3523 /* MasterViewController.xib */; };
+		8468447D14D844AD004C3523 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8468447B14D844AD004C3523 /* DetailViewController.xib */; };
+		8468448814D845D4004C3523 /* LevelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468448614D845D4004C3523 /* LevelsViewController.m */; };
+		8468448914D845D4004C3523 /* LevelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8468448714D845D4004C3523 /* LevelsViewController.xib */; };
+		847BBB9514DB564800A001B5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847BBB9414DB564800A001B5 /* CoreMotion.framework */; };
+		847BBB9714DB565900A001B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847BBB9614DB565900A001B5 /* QuartzCore.framework */; };
+		847BCB7C14DCA6B80059687B /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BCB7B14DCA6B80059687B /* Edge.m */; };
+		8485C86814D9A2A60044E14C /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8485C86714D9A2A60044E14C /* Vertex.m */; };
+		848838A014DC3203009C9A6C /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488389E14DC3202009C9A6C /* OptionsViewController.m */; };
+		848838A114DC3203009C9A6C /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8488389F14DC3202009C9A6C /* OptionsViewController.xib */; };
+		848838A414DC3676009C9A6C /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 848838A314DC3676009C9A6C /* Images */; };
+		848838A614DC3A06009C9A6C /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = 848838A514DC3A06009C9A6C /* Levels */; };
+		8493266F14D862650086BEBD /* RecordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493266D14D862650086BEBD /* RecordsViewController.m */; };
+		8493267014D862650086BEBD /* RecordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8493266E14D862650086BEBD /* RecordsViewController.xib */; };
+		8493267514D8627C0086BEBD /* RecordsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493267314D8627C0086BEBD /* RecordsDetailViewController.m */; };
+		8493267614D8627C0086BEBD /* RecordsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8493267414D8627C0086BEBD /* RecordsDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF0DBBD14DD425A00FE3A83 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		8468445C14D844AD004C3523 /* GraphGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8468446014D844AD004C3523 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8468446214D844AD004C3523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8468446414D844AD004C3523 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8468446814D844AD004C3523 /* GraphGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphGame-Info.plist"; sourceTree = "<group>"; };
+		8468446A14D844AD004C3523 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8468446C14D844AD004C3523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8468446E14D844AD004C3523 /* GraphGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphGame-Prefix.pch"; sourceTree = "<group>"; };
+		8468446F14D844AD004C3523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8468447014D844AD004C3523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8468447214D844AD004C3523 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8468447314D844AD004C3523 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8468447514D844AD004C3523 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8468447614D844AD004C3523 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8468447914D844AD004C3523 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		8468447C14D844AD004C3523 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		8468448514D845D4004C3523 /* LevelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelsViewController.h; sourceTree = "<group>"; };
+		8468448614D845D4004C3523 /* LevelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelsViewController.m; sourceTree = "<group>"; };
+		8468448714D845D4004C3523 /* LevelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelsViewController.xib; sourceTree = "<group>"; };
+		847BBB9414DB564800A001B5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		847BBB9614DB565900A001B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		847BCB7A14DCA6B80059687B /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		847BCB7B14DCA6B80059687B /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		8485C86614D9A2A50044E14C /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		8485C86714D9A2A60044E14C /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		8488389D14DC3202009C9A6C /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		8488389E14DC3202009C9A6C /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		8488389F14DC3202009C9A6C /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		848838A314DC3676009C9A6C /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		848838A514DC3A06009C9A6C /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Levels; sourceTree = "<group>"; };
+		8493266C14D862650086BEBD /* RecordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordsViewController.h; sourceTree = "<group>"; };
+		8493266D14D862650086BEBD /* RecordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordsViewController.m; sourceTree = "<group>"; };
+		8493266E14D862650086BEBD /* RecordsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordsViewController.xib; sourceTree = "<group>"; };
+		8493267214D8627C0086BEBD /* RecordsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordsDetailViewController.h; sourceTree = "<group>"; };
+		8493267314D8627C0086BEBD /* RecordsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordsDetailViewController.m; sourceTree = "<group>"; };
+		8493267414D8627C0086BEBD /* RecordsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordsDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8468445914D844AD004C3523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468446114D844AD004C3523 /* UIKit.framework in Frameworks */,
+				8468446314D844AD004C3523 /* Foundation.framework in Frameworks */,
+				8468446514D844AD004C3523 /* CoreGraphics.framework in Frameworks */,
+				847BBB9514DB564800A001B5 /* CoreMotion.framework in Frameworks */,
+				847BBB9714DB565900A001B5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8468445114D844AC004C3523 = {
+			isa = PBXGroup;
+			children = (
+				848838A314DC3676009C9A6C /* Images */,
+				848838A514DC3A06009C9A6C /* Levels */,
+				8468446614D844AD004C3523 /* GraphGame */,
+				8468445F14D844AD004C3523 /* Frameworks */,
+				8468445D14D844AD004C3523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8468445D14D844AD004C3523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8468445C14D844AD004C3523 /* GraphGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8468445F14D844AD004C3523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847BBB9414DB564800A001B5 /* CoreMotion.framework */,
+				847BBB9614DB565900A001B5 /* QuartzCore.framework */,
+				8468446014D844AD004C3523 /* UIKit.framework */,
+				8468446214D844AD004C3523 /* Foundation.framework */,
+				8468446414D844AD004C3523 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8468446614D844AD004C3523 /* GraphGame */ = {
+			isa = PBXGroup;
+			children = (
+				8468446F14D844AD004C3523 /* AppDelegate.h */,
+				8468447014D844AD004C3523 /* AppDelegate.m */,
+				8468447214D844AD004C3523 /* MasterViewController.h */,
+				8468447314D844AD004C3523 /* MasterViewController.m */,
+				8468448514D845D4004C3523 /* LevelsViewController.h */,
+				8468448614D845D4004C3523 /* LevelsViewController.m */,
+				8468447514D844AD004C3523 /* DetailViewController.h */,
+				8468447614D844AD004C3523 /* DetailViewController.m */,
+				8493266C14D862650086BEBD /* RecordsViewController.h */,
+				8493266D14D862650086BEBD /* RecordsViewController.m */,
+				8493267214D8627C0086BEBD /* RecordsDetailViewController.h */,
+				8493267314D8627C0086BEBD /* RecordsDetailViewController.m */,
+				8488389D14DC3202009C9A6C /* OptionsViewController.h */,
+				8488389E14DC3202009C9A6C /* OptionsViewController.m */,
+				8468447814D844AD004C3523 /* MasterViewController.xib */,
+				8468447B14D844AD004C3523 /* DetailViewController.xib */,
+				8468448714D845D4004C3523 /* LevelsViewController.xib */,
+				8493266E14D862650086BEBD /* RecordsViewController.xib */,
+				8493267414D8627C0086BEBD /* RecordsDetailViewController.xib */,
+				8488389F14DC3202009C9A6C /* OptionsViewController.xib */,
+				8468446714D844AD004C3523 /* Supporting Files */,
+				8485C86614D9A2A50044E14C /* Vertex.h */,
+				8485C86714D9A2A60044E14C /* Vertex.m */,
+				847BCB7A14DCA6B80059687B /* Edge.h */,
+				847BCB7B14DCA6B80059687B /* Edge.m */,
+				3FF0DBBD14DD425A00FE3A83 /* Math.h */,
+			);
+			path = GraphGame;
+			sourceTree = "<group>";
+		};
+		8468446714D844AD004C3523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8468446814D844AD004C3523 /* GraphGame-Info.plist */,
+				8468446914D844AD004C3523 /* InfoPlist.strings */,
+				8468446C14D844AD004C3523 /* main.m */,
+				8468446E14D844AD004C3523 /* GraphGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8468445B14D844AD004C3523 /* GraphGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8468448014D844AD004C3523 /* Build configuration list for PBXNativeTarget "GraphGame" */;
+			buildPhases = (
+				8468445814D844AD004C3523 /* Sources */,
+				8468445914D844AD004C3523 /* Frameworks */,
+				8468445A14D844AD004C3523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphGame;
+			productName = GraphGame;
+			productReference = 8468445C14D844AD004C3523 /* GraphGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8468445314D844AC004C3523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8468445614D844AC004C3523 /* Build configuration list for PBXProject "GraphGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8468445114D844AC004C3523;
+			productRefGroup = 8468445D14D844AD004C3523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8468445B14D844AD004C3523 /* GraphGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8468445A14D844AD004C3523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468446B14D844AD004C3523 /* InfoPlist.strings in Resources */,
+				8468447A14D844AD004C3523 /* MasterViewController.xib in Resources */,
+				8468447D14D844AD004C3523 /* DetailViewController.xib in Resources */,
+				8468448914D845D4004C3523 /* LevelsViewController.xib in Resources */,
+				8493267014D862650086BEBD /* RecordsViewController.xib in Resources */,
+				8493267614D8627C0086BEBD /* RecordsDetailViewController.xib in Resources */,
+				848838A114DC3203009C9A6C /* OptionsViewController.xib in Resources */,
+				848838A414DC3676009C9A6C /* Images in Resources */,
+				848838A614DC3A06009C9A6C /* Levels in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8468445814D844AD004C3523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8468446D14D844AD004C3523 /* main.m in Sources */,
+				8468447114D844AD004C3523 /* AppDelegate.m in Sources */,
+				8468447414D844AD004C3523 /* MasterViewController.m in Sources */,
+				8468447714D844AD004C3523 /* DetailViewController.m in Sources */,
+				8468448814D845D4004C3523 /* LevelsViewController.m in Sources */,
+				8493266F14D862650086BEBD /* RecordsViewController.m in Sources */,
+				8493267514D8627C0086BEBD /* RecordsDetailViewController.m in Sources */,
+				8485C86814D9A2A60044E14C /* Vertex.m in Sources */,
+				848838A014DC3203009C9A6C /* OptionsViewController.m in Sources */,
+				847BCB7C14DCA6B80059687B /* Edge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8468446914D844AD004C3523 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8468446A14D844AD004C3523 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8468447814D844AD004C3523 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8468447914D844AD004C3523 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		8468447B14D844AD004C3523 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8468447C14D844AD004C3523 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8468447E14D844AD004C3523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8468447F14D844AD004C3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8468448114D844AD004C3523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphGame/GraphGame-Prefix.pch";
+				INFOPLIST_FILE = "GraphGame/GraphGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8468448214D844AD004C3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphGame/GraphGame-Prefix.pch";
+				INFOPLIST_FILE = "GraphGame/GraphGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8468445614D844AC004C3523 /* Build configuration list for PBXProject "GraphGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468447E14D844AD004C3523 /* Debug */,
+				8468447F14D844AD004C3523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8468448014D844AD004C3523 /* Build configuration list for PBXNativeTarget "GraphGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8468448114D844AD004C3523 /* Debug */,
+				8468448214D844AD004C3523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8468445314D844AC004C3523 /* Project object */;
+}
